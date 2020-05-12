@@ -6,8 +6,8 @@ using namespace std;
 int main()
 {
 	int x, y, z, u;
-    //x=头
-    //y=脚
+    //x=头的个数
+    //y=脚的个数
 	x = 35;
 	y = 94;
 	z = 2 * x - y / 2;
