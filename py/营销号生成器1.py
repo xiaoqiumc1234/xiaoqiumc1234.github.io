@@ -1,0 +1,9 @@
+item=input('事物:')
+thing=input('事情:')
+whyword='为什么'+item+thing+'?'
+why=input(whyword)
+word1=item+thing+'是怎么回事呢？'+item+'相信大家都很熟悉，但是'+item+thing+'是怎么回事呢，下面就让小编带大家一起了解吧。'
+word2=item+thing+'其实就是'+why+',大家可能会很惊讶'+item+'怎么会'+thing+'呢？但事实就是这样，小编也感到非常惊讶。'
+word3='这就是关于'+item+thing+'的事情了，大家有什么想法呢，欢迎在评论区告诉小编一起讨论哦！'
+word=word1+word2+word3
+print(word)

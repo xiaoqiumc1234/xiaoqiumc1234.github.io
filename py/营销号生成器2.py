@@ -1,0 +1,22 @@
+name = input("名称：")
+body = input("主体：")
+event = input("事件：")
+anotherway = input("另一种说法：")
+template = input("文案编号(1|2)：")
+
+if (template == "1"):
+    print ("Hello，大家好，这里是" + name + "。相信大家都已经了解了" + body + event + "的事情。")
+    print ("那么" + body + event + "是怎么回事呢？可能有人不理解，为什么" + body + "会被" + event + "呢？")
+    print (body + "相信大家都很熟悉。但是" + body + event + "是怎么回事呢？下面就让小编带大家来一起了解吧。")
+    print (body + event + "，其实就是" + anotherway + "，大家可能很惊讶" + body + "为什么会" + event + "呢？")
+    print ("但事实就是这样，小编也感到非常惊讶。")
+    print ("那么这就是关于" + body + event + "的事情了，大家有没有觉得很神奇呢？")
+    print ("以上就是今天的" + name + "。大家有什么想法和评论，欢迎在评论区告诉小编一起讨论哦。我们下期再见！")
+elif (template == "2"):
+    usefulness = input("主体的用处：")
+    print (body + event + "？Hello，大家好，这里是" + name + "。说到" + body + "，可能大家都不会陌生了。但是最近，" + body + "却在互联网引起了不小的争议，微博中也有不少人在谈论这件事情。")
+    print ("近日有网友爆料，" + body + "因为某些原因被" + event + "了。那么这是怎么一回事呢？下面就让小编来带大家一起了解一下吧！")
+    print (body + "很多人都知道，这是用来" + usefulness + "的一个东西。而" + body + event + "，其实就是" + anotherway + "。那为什么" + body + "会被" + event + "呢？")
+    print ("但事实就是这样，小编也感到非常惊讶。")
+    print ("那么这就是关于" + body + event + "的事情了，大家有没有觉得很神奇呢？")
+    print ("以上就是今天的" + name + "。大家有什么想法和评论，欢迎在评论区告诉小编一起讨论哦。我们下期再见！")
