@@ -25,6 +25,15 @@
             border-left: 3px solid #090;
             width: 300px
         }
+
+        #footer {
+            width: 400px;
+            height: 120px;
+            background-color: #00FFFF;
+            border-radius: 30px;
+            margin-left: auto;
+            margin-right: auto;
+        }
     </style>
     <style type="text/css">
         body, select, textarea {
@@ -44,21 +53,21 @@
 </head>
 <body>
     <h2>Xiaoqiu's code base</h2>
-    <div class="ac">
+    <div id="leftbar_part2_inner" class="card-body">
         <br />
         <p>　　　　download[py]　　　　</p>
-        　<a href="/py/翻译.py">翻译.py</a><br />
-        　<a href="/py/让电脑自带蜂鸣器发声.py">让电脑自带蜂鸣器发声.py</a><br />
-        　<a href="/py/营销号生成器1.py">营销号生成器1.py</a><br />
-        　<a href="/py/营销号生成器2.py">营销号生成器2.py</a><br />
+        <a href="/py/翻译.py">翻译.py</a><br />
+        <a href="/py/让电脑自带蜂鸣器发声.py">让电脑自带蜂鸣器发声.py</a><br />
+        <a href="/py/营销号生成器1.py">营销号生成器1.py</a><br />
+        <a href="/py/营销号生成器2.py">营销号生成器2.py</a><br />
         <br />
     </div>
     <br />
     <div class="ac">
         <br />
         <p>　　　　　　　other</p>
-        　<a href="Snake/Snake.html">贪吃蛇小游戏网页版</a>
-        　<a href="Tetris/Tetris.html">俄罗斯方块</a>
+        <a href="Snake/Snake.html">贪吃蛇小游戏网页版</a>
+        <a href="Tetris/Tetris.html">俄罗斯方块</a>
         <p>　操作方法：上下左右键控制</p>
         <br />
     </div>
@@ -66,17 +75,43 @@
     <div class="ac">
         <br />
         <p>　　　　　　　github</p>
-        　<a href="https://github.com/xiaoqiumc1234/xiaoqiumc1234.github.io/">点击跳转</a><br />
+        <a href="https://github.com/xiaoqiumc1234/xiaoqiumc1234.github.io/">点击跳转</a><br />
         <br />
     </div>
     <br />
     <div class="ac">
         <br />
         <p>　　　　　　　bilibili</p>
-        　<a href="https://space.bilibili.com/385968587">点击跳转</a><br />
+        <a href="https://space.bilibili.com/385968587">点击跳转</a><br />
         <br />
     </div>
 
+    <footer id="footer">
+        <br />
+        <p style="text-align: center;">
+            站点已不稳定运行：<strong><SPAN id=span_dt_dt style="color: #EE9CB3;"></SPAN></strong>
+            <SCRIPT language=javascript>
+function show_date_time(){
+window.setTimeout("show_date_time()", 1000);
+BirthDay=new Date("10/1/2019 00:00:01");
+today=new Date();
+timeold=(today.getTime()-BirthDay.getTime());
+sectimeold=timeold/1000
+secondsold=Math.floor(sectimeold);
+msPerDay=24*60*60*1000
+e_daysold=timeold/msPerDay
+daysold=Math.floor(e_daysold);
+e_hrsold=(e_daysold-daysold)*24;
+hrsold=Math.floor(e_hrsold);
+e_minsold=(e_hrsold-hrsold)*60;
+minsold=Math.floor((e_hrsold-hrsold)*60);
+seconds=Math.floor((e_minsold-minsold)*60);
+span_dt_dt.innerHTML='<font style=color:#EE9CB3>'+daysold+'</font> 天 <font style=color:#EE9CB3>'+hrsold+'</font> 时 <font style=color:#EE9CB3>'+minsold+'</font> 分 <font style=color:#EE9CB3>'+seconds+'</font> 秒';
+}
+show_date_time();</SCRIPT>
+        </p>
+        <br>
+    </footer>
 
 </body>
 </html>
